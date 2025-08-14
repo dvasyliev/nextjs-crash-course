@@ -1,0 +1,14 @@
+.MenuLink {
+  width: 100%;
+}
+
+.MenuLink a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.MenuLink a:hover,
+.MenuLink a[data-active="true"] {
+  background-color: #594bac;
+}

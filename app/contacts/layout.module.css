@@ -31,23 +31,6 @@
   flex-direction: column;
 }
 
-.Menu ul {
-  display: flex;
-  gap: 8px;
-  list-style: none;
-}
-
-.Menu a {
-  display: block;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.Menu a:hover,
-.Menu a[data-active="true"] {
-  background-color: darkslateblue;
-}
-
 .Card {
   display: flex;
   align-items: center;

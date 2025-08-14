@@ -17,19 +17,3 @@
 .Logo {
   font-size: 24px;
 }
-
-.Menu ul {
-  display: flex;
-  gap: 8px;
-  list-style: none;
-}
-
-.Menu a {
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.Menu a:hover,
-.Menu a[data-active="true"] {
-  background-color: slateblue;
-}
