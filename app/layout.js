@@ -5,7 +5,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className={styles.Layout}>{children}</div>
+        <div className={styles.Layout}>
+          <header className={styles.Header}>
+            <h1 className={styles.Logo}>MyContacts</h1>
+          </header>
+
+          {children}
+        </div>
       </body>
     </html>
   );

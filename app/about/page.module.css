@@ -1,0 +1,32 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+}
+
+.Main h2 {
+  margin-bottom: 18px;
+}
+
+.Main p:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+.Main h3 {
+  margin-bottom: 12px;
+}
+
+.Card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+}
+
+.Main ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  list-style: none;
+}

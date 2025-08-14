@@ -1,0 +1,18 @@
+.Main {
+  padding: 24px;
+}
+
+.Main h2 {
+  margin-bottom: 18px;
+}
+
+.Main p:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+.Card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+}
