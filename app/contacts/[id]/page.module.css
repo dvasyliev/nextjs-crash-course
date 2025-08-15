@@ -1,0 +1,54 @@
+.Main {
+  width: 100%;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  height: calc(100vh - 60px - 68px);
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.Header img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.Info {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 24px;
+  border-radius: 16px;
+  background-color: #1f1f1f;
+}
+
+.Info ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.Info li {
+  padding: 16px 0;
+}
+
+.Info li:not(:last-of-type) {
+  border-bottom: 1px solid #313131;
+}
+
+.Label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
