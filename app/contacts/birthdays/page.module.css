@@ -9,10 +9,11 @@
   margin-bottom: 18px;
 }
 
-.Main ul {
+.Cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
+  margin-top: 16px;
   list-style: none;
 }
 
