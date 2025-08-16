@@ -1,15 +1,25 @@
-.Main {
+.Main,
+.SkeletonMain {
   width: 100%;
   height: calc(100vh - 60px);
   padding: 24px;
   overflow-y: auto;
 }
 
-.Main h2 {
+.Main h2,
+.SkeletonTitle {
   margin-bottom: 18px;
 }
 
-.Cards {
+.SkeletonTitle {
+  width: 120px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+}
+
+.Cards,
+.SkeletonList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
@@ -17,7 +27,8 @@
   list-style: none;
 }
 
-.Card {
+.Card,
+.SkeletonItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +38,8 @@
   background-color: #1f1f1f;
 }
 
-.Card img {
+.Card img,
+.SkeletonImage {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -35,4 +47,37 @@
 
 .Card h3 {
   font-size: 16px;
+}
+
+/* Skeleton */
+
+.SkeletonButtons {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.SkeletonButton {
+  width: 80px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+}
+
+.SkeletonImage {
+  background-color: #303030;
+}
+
+.SkeletonFullName {
+  width: 100px;
+  height: 18px;
+  border-radius: 8px;
+  background-color: #303030;
+}
+
+.SkeletonDateOfBirth {
+  width: 80px;
+  height: 18px;
+  border-radius: 8px;
+  background-color: #303030;
 }
