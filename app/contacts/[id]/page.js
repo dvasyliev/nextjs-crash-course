@@ -1,4 +1,3 @@
-import { CONTACTS_MOCK } from "@/mock/contacts";
 import styles from "./page.module.css";
 
 const INFO_ITEMS = [
@@ -11,7 +10,10 @@ const INFO_ITEMS = [
 
 export default async function ContactView({ params }) {
   const { id } = await params;
-  const contact = CONTACTS_MOCK.find((contact) => contact.id === id);
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_API_BASE_URL}/contacts/${id}`
+  );
+  const contact = await data.json();
 
   return (
     <main className={styles.Main}>

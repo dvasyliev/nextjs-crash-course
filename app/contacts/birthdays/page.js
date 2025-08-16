@@ -6,6 +6,11 @@ import { MenuLink } from "@/components/menu-link";
 
 export default async function Birthdays({ searchParams }) {
   const favorite = (await searchParams).favorite === "true";
+  const queryString = favorite ? `?favorite=true` : "";
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_API_BASE_URL}/contacts${queryString}`
+  );
+  const contacts = await data.json();
 
   return (
     <main className={styles.Main}>
@@ -19,9 +24,7 @@ export default async function Birthdays({ searchParams }) {
         </MenuLink>
       </Menu>
       <ul className={styles.Cards}>
-        {CONTACTS_MOCK.filter((contact) =>
-          favorite ? contact.favorite === favorite : true
-        ).map((contact) => (
+        {contacts.map((contact) => (
           <li key={contact.id}>
             <Link className={styles.Card} href={`/contacts/${contact.id}`}>
               <img src={contact.avatarUrl} />
