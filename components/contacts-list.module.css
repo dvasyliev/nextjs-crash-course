@@ -1,0 +1,48 @@
+.Menu {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.Menu ul,
+.SkeletonList {
+  flex-direction: column;
+}
+
+.Card,
+.SkeletonCard {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Card img,
+.SkeletonImage {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Skeleton */
+
+.SkeletonList {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.SkeletonItem {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.SkeletonImage {
+  background-color: #594bac;
+}
+
+.SkeletonFullName {
+  width: 120px;
+  height: 16px;
+  background-color: #594bac;
+  border-radius: 8px;
+}

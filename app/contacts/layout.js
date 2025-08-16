@@ -1,10 +1,16 @@
 import { Menu } from "@/components/menu";
 import { MenuLink } from "@/components/menu-link";
 import styles from "./layout.module.css";
+import { ContactsList, ContactsListSkeleton } from "@/components/contacts-list";
+import { Suspense } from "react";
+
+async function fetchContacts() {
+  const data = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/contacts`);
+  return data.json();
+}
 
 export default async function ContcatsLayout({ children }) {
-  const data = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/contacts`);
-  const contacts = await data.json();
+  const contacts = fetchContacts();
 
   return (
     <div className={styles.Layout}>
@@ -15,16 +21,9 @@ export default async function ContcatsLayout({ children }) {
         </Menu>
 
         <h4 className={styles.Subtitle}>Links</h4>
-        <Menu className={styles.Menu}>
-          {contacts.map((contact) => (
-            <MenuLink key={contact.id} href={`/contacts/${contact.id}`}>
-              <div className={styles.Card}>
-                <img src={contact.avatarUrl} />
-                {contact.firstName} {contact.lastName}
-              </div>
-            </MenuLink>
-          ))}
-        </Menu>
+        <Suspense fallback={<ContactsListSkeleton count={10} />}>
+          <ContactsList contacts={contacts} />
+        </Suspense>
       </aside>
 
       {children}

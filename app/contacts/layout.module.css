@@ -21,24 +21,3 @@
 .Subtitle:nth-of-type(2) {
   margin-top: 16px;
 }
-
-.Menu:nth-of-type(2) {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.Menu:nth-of-type(2) ul {
-  flex-direction: column;
-}
-
-.Card {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.Card img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-}
