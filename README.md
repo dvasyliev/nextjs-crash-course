@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+About me ◽️ 🎬 Udemy Instructor ◽️ 👨🏻‍💻 Front-End Engineer (10+ years) ◽️ 🎯 Mentor for Developers
 
-## Getting Started
+# Contacts List App
 
-First, run the development server:
+This repository contains the Source Code for the "Contacts List App" from 👓 [Next.js Crash Course: Build a Full-Stack App in a Weekend](https://linkly.link/2EUQ5) course.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# My Other Courses
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Front-End Courses
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🧑🏻‍💻 [React Crash Course: From Zero to Hero](https://linkly.link/1zdiJ)\
+🤖 [React.js AI Chatbot App with ChatGPT, Gemini AI and DeepSeek](https://linkly.link/2DUBq)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### AI & Vibe Coding Courses
 
-## Learn More
+😈 [GitHub Copilot for Beginners: AI Coding Crash Course](https://linkly.link/2B4WN)\
+👻 [Cursor AI for Beginners: AI Coding Crash Course](https://linkly.link/2CKBT)\
+🏄🏻‍♂️ [Windsurf for Beginners: AI Coding Crash Course ](https://linkly.link/2DUC9)\
+❤️ [Lovable AI: Complete Guide for Vibe Coding](https://linkly.link/2DUC1)
 
-To learn more about Next.js, take a look at the following resources:
+#### Full-Stack Courses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👓 [Next.js Crash Course: Build a Full-Stack App in a Weekend](https://linkly.link/2EUQ5)\
+🧩 [Node.js Crash Course: Build a REST API in a Weekend](https://linkly.link/2EUQ6)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# How to use Code Examples from Github
 
-## Deploy on Vercel
+## Download the code source
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### a) Download code source for final application
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Open repository main [page](https://github.com/dvasyliev/nextjs-crash-course/).
+
+2. Click on the green "Code" button to open a list and then click on the "Download ZIP" button to download a source code.
+
+<img width="472" alt="Screenshot 2024-06-25 at 17 34 44" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/5e67c693-39fd-4262-b0ff-7aa81f439642">
+
+### b) Download code sources for specific lesson
+
+1. Open [commits](https://github.com/dvasyliev/nextjs-crash-course/commits/main/) page.
+
+2. Click on the "code" icon near the lesson you are interested.
+
+<img width="1319" alt="Screenshot 2024-06-25 at 17 48 06" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/53caf0fe-7d61-4c22-b10f-33b8f1cb5512">
+
+3. You will be redirected to the specific source code page for this lesson.
+
+4. Click on the green "Code" button to open a list and then click on the "Download ZIP" button to download a source code.
+
+<img width="472" alt="Screenshot 2024-06-25 at 17 34 44" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/5e67c693-39fd-4262-b0ff-7aa81f439642">
+
+## Open project in the VS code (code editor)
+
+Open the archive on your computer, open VS code (code editor) and cick "File" -> "Open Folder" -> Choose project folder => "Open".
+
+<img width="470" alt="Screenshot 2024-06-25 at 17 40 31" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/ec7661e5-d8e7-409f-a935-5a55335553e9">
+
+## Start application
+
+### 1. Install dependencies
+
+Run the `npm install` command to install all the libraries needed to run the application.
+
+### 2. Run application
+
+Run the `npm run dev` command in terminal to start the application.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.
