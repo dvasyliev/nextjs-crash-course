@@ -4,13 +4,14 @@ About me ◽️ 🎬 Udemy Instructor ◽️ 👨🏻‍💻 Front-End Engineer 
 
 This repository contains the Source Code for the "Contacts List App" from 👓 [Next.js Crash Course: Build a Full-Stack App in a Weekend](https://linkly.link/2EUQ5) course.
 
+<!-- COURSES:START -->
 # All My Courses
 
 #### Agentic AI Courses
 
 🎛️ [Harness Engineering: Modern AI Software Development Bootcamp](https://go.dvasyliev.com/harness-engineering)\
 🦞 [OpenClaw for Developers: AI Coding Crash Course](https://go.dvasyliev.com/openclaw)\
-🧑🏻‍💻 [AI Code Review: Evaluate Python Code with Confidence](https://go.dvasyliev.com/evaluating-ai-code)\
+🧑🏻‍💻 [AI Code Review: Evaluate Python Code with Confidence](https://go.dvasyliev.com/evaluating-ai-code)
 
 #### AI Tools Courses
 
@@ -46,6 +47,7 @@ This repository contains the Source Code for the "Contacts List App" from 👓 [
 
 👣 [AI Agents with OpenAI AgentKit: Hands-On Guide](https://go.dvasyliev.com/agentkit)\
 💬 [ChatGPT for Developers: AI Coding Crash Course](https://go.dvasyliev.com/chatgpt)
+<!-- COURSES:END -->
 
 # How to use Code Examples from Github
 
